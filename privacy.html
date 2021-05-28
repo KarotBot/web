@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">Karot</a>
+
+
+            <img id="mobile-cta" class="mobile-menu" src="files/lines1.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-close" class="mobile-exit" src="files/close1.svg" alt="Close Navigation">
+
+                <ul class="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="https://discord.gg/khjjAJ943S">Support</a></li>
+                    <li><a href="https://docs.karot.xyz/">Docs</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li class="invite01"><a href="https://discord.com/oauth2/authorize?client_id=822391645697212416&permissions=322632&redirect_uri=https://karot.xyz/hi.html&response_type=code&scope=bot%20applications.commands" class="text01">Invite</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karot - Privacy</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="icon" href="files/karotka.png" type="image/icon">
+    <meta property="og:title" content=Karot>
+    <meta content="Karot is a  Discord bot that has loads of utility, fun & image commands to pog up your server!" property="og:description"> 
+    <meta content=https://karot.xyz/files/karotka.png property="og:image"> 
+    <meta name="theme-color" content=#E54918> 
+    <meta name="keywords" content="discord, discord bot, bot, karot, mrkva, mrkvička, karotka, discord.js, javascript"> 
+</head>
+<body>
+   <div class="container">
+    <h1 class="privacy-title"><center>Privacy</center></h1> 
+    <div class="privacy">
+        <p class="subf">Karot requires and collects some data in order to function, this data includes:</p>
+        <li>Your user information (such as username, ID & disciminator)</li>
+        <li>Server information (such as name & id)</li>
+        <br>
+        <p class="subf">This website also logs IP adresses and uses Cloudflare cookies to fight off bots ext.</p>
+    </div>
+   </div>  
+
+<footer>
+    <div class="footer-contentp">
+        <h3 class="futer-textisko">Karot</h3>
+        <p class="futer-textik"><a href="privacy.html">Privacy</a> <a href="https://abuse.karot.xyz/">Abuse</a></p>
+        <ul class="ikonki">
+            <li><a href="https://discord.gg/khjjAJ943S"><i class="fab fa-discord"></i></a></li>
+            <li><a href="https://www.instagram.com/karotbot/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/karotbot"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-oliverko">
+        <p><center>Web by <a href="https://oliminator.net" class="oliverkolink">OLIMINATOR</a> </center></p>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/5acf4d9e80.js" crossorigin="anonymous"></script>
+<script>
+    const mobileBtn = document.getElementById('mobile-cta')
+          nav = document.querySelector('nav')
+          mobileBtnExit = document.getElementById('mobile-close');
+
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add('menu-btn');
+    })
+
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+    })
+</script>
+</body>
+</html>
